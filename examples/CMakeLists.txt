@@ -53,3 +53,11 @@ ADD_EXECUTABLE(SerialStreamReadWriteExample
 TARGET_LINK_LIBRARIES(SerialStreamReadWriteExample
   libserial_static
 )
+
+ADD_EXECUTABLE(Libserial_Example
+  Libserial_Example.cpp
+)
+
+TARGET_LINK_LIBRARIES(Libserial_Example
+  libserial_static
+)
